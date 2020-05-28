@@ -7,8 +7,8 @@ pageEncoding="ISO-8859-1"%>
 	<head>
 		<title>Home</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<link href="/OnlySarkariJobs/resources/css/style.css" rel="stylesheet"/>
-	<script type="text/javascript" src="/OnlySarkariJobs/resources/js/script.js"></script>
+		<link href="/SarkariExamDetail/resources/css/style.css" rel="stylesheet"/>
+	<script type="text/javascript" src="/SarkariExamDetail/resources/js/script.js"></script>
 	</head>
 
 <body>
@@ -28,14 +28,14 @@ pageEncoding="ISO-8859-1"%>
 				<div class="Sheet-cc"></div>
 				<div class="Sheet-body">
 				<div class="Header">
-					<div class="Header-jpeg"><a href="/OnlySarkariJobs/home"><img src="/OnlySarkariJobs/resources/images/logo.jpg" alt="FreeJobAlert Logo" align="left" width="58" height="72" /></a></div>
+					<div class="Header-jpeg"><a href="/OnlySarkariJobs/home"><img src="/SarkariExamDetail/resources/images/logo.jpg" alt="SarkariExamDetail Logo" align="left" width="58" height="72" /></a></div>
 						<div class="logo">
 						<h1 id="name-text" class="logo-name">
-							<a href="/OnlySarkariJobs/home">SarkariExamDetail.Com</a></h1>
+							<a href="/OnlySarkariJobs/home">SarkariExamDetail.Com</a></h1><br/>
 							<div id="slogan-text" class="logo-text">
 								Government Jobs | Results | Admit Cards							</div>
 						</div>
-						<a href="http://www.freejobalert.com/get-free-job-alerts-in-your-email-subscribe-now/">
+						<a href="http://www.SarkariExamDetail.com/get-free-job-alerts-in-your-email-subscribe-now/">
 						<div  style="color:#FF0000; font-size:15px; text-align:right">
 							<marquee onmouseover="this.stop();" onmouseout="this.start();"> 
 							Get Free job alerts in your Email Click Here </marquee> 
@@ -45,14 +45,14 @@ pageEncoding="ISO-8859-1"%>
 				<div class="nav">
 					<div id="tabs">
 						<ul>
-							<li><a href="/OnlySarkariJobs/home"><span>Home&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/government-jobs/"><span>All India Govt Jobs&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/state-government-jobs/"><span>State Govt Jobs&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/bank-jobs/"><span>Bank Jobs&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/teaching-faculty-jobs/"><span>Teaching Jobs&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/engineering-jobs/"><span>Engineering Jobs&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/railway-jobs/"><span>Railway Jobs&nbsp;</span></a></li>
-							<li><a href="http://www.freejobalert.com/police-defence-jobs/"><span>Police/Defence Jobs&nbsp;</span></a></li>
+							<li><a href="/OnlySarkariJobs/home"><span>Home&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/government-jobs/"><span>&nbsp;&nbsp;&nbsp;All India Govt Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/state-government-jobs/"><span>&nbsp;&nbsp;&nbsp;State Govt Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/bank-jobs/"><span>&nbsp;&nbsp;&nbsp;Bank Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/teaching-faculty-jobs/"><span>&nbsp;&nbsp;Teaching Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/engineering-jobs/"><span>&nbsp;&nbsp;Engineering Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/railway-jobs/"><span>&nbsp;&nbsp;Railway Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="http://www.SarkariExamDetail.com/police-defence-jobs/"><span>&nbsp;&nbsp;Police/Defence Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
 							
 						</ul>
 					</div>
@@ -96,10 +96,10 @@ pageEncoding="ISO-8859-1"%>
     <div class="BlockContent">
     <div class="BlockContent-body"> 
     <ul>
-    <li><a href="http://www.freejobalert.com/latest-notifications/">Latest Notifications</a></li>
-    <li><a href="http://www.freejobalert.com/upcoming-notifications/21614/">Upcoming Notifications</a></li>
-    <li><a href="http://www.freejobalert.com/examwise-information/188919/">Examwise Information</a></li>
-    <li><a href="http://www.freejobalert.com/notification-status/#notification-status">Notification Status</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/latest-notifications/">Latest Notifications</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/upcoming-notifications/21614/">Upcoming Notifications</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/examwise-information/188919/">Examwise Information</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/notification-status/#notification-status">Notification Status</a></li>
     </ul>    
     </div>
     </div>
@@ -118,13 +118,13 @@ pageEncoding="ISO-8859-1"%>
     <div class="BlockContent">
     <div class="BlockContent-body"> 
     <ul>
-    <li><a href="http://www.freejobalert.com/admit-card-call-letter/22406/">Admit Card</a></li>
-    <li><a href="http://www.freejobalert.com/exam-results/22075/">Exam Results</a></li>
-    <li><a href="http://www.freejobalert.com/upcoming-exam-dates-of-various-jobs/1835/">Exam Date</a></li>
-    <li><a href="http://www.freejobalert.com/answer-key/">Answer Key</a></li>
-    <li><a href="http://www.freejobalert.com/cutoff-marks/">Cutoff Marks</a></li>
-    <li><a href="http://www.freejobalert.com/written-test-marks/22399/">Written Marks</a></li>
-    <li><a href="http://www.freejobalert.com/interview-results/22135/">Interview Results</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/admit-card-call-letter/22406/">Admit Card</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/exam-results/22075/">Exam Results</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/upcoming-exam-dates-of-various-jobs/1835/">Exam Date</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/answer-key/">Answer Key</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/cutoff-marks/">Cutoff Marks</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/written-test-marks/22399/">Written Marks</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/interview-results/22135/">Interview Results</a></li>
     </ul>    
     </div>
     </div>
@@ -143,11 +143,11 @@ pageEncoding="ISO-8859-1"%>
     <div class="BlockContent">
     <div class="BlockContent-body"> 
     <ul>
-    <li><a href="http://www.freejobalert.com/eligibility/22149/">Eligibility</a></li>
-    <li><a href="http://www.freejobalert.com/syllabus/22151/">Syllabus</a></li>
-    <li><a href="http://www.freejobalert.com/exam-pattern/">Exam Pattern</a></li>
-    <li><a href="http://www.freejobalert.com/selection-process/">Selection Process</a></li>
-    <li><a href="http://www.freejobalert.com/previous-papers/22365/">Previous Papers</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/eligibility/22149/">Eligibility</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/syllabus/22151/">Syllabus</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/exam-pattern/">Exam Pattern</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/selection-process/">Selection Process</a></li>
+    <li><a href="http://www.SarkariExamDetail.com/previous-papers/22365/">Previous Papers</a></li>
     </ul>    
     </div>
     </div>
@@ -192,7 +192,7 @@ pageEncoding="ISO-8859-1"%>
  
 
 <div style="background-color:#E3F0F8;width:270px;margin-bottom:10px;">
- <form style="border:0px solid #ccc;padding:1px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=freejobalert', 'popupwindow', 'scrollbars=yes,width=550,height=500');return true"><input style="width:140px" name="email" placeholder="email address" type="text">&nbsp;<input value="freejobalert" name="uri" type="hidden"><input name="loc" value="en_US" type="hidden"><input value="Subscribe" type="submit"></form>
+ <form style="border:0px solid #ccc;padding:1px;text-align:center;" action="#" method="#" target="popupwindow" onsubmit="#', 'popupwindow', 'scrollbars=yes,width=550,height=500');return true"><input style="width:140px" name="email" placeholder="email address" type="text">&nbsp;<input value="SarkariExamDetail" name="uri" type="hidden"><input name="loc" value="en_US" type="hidden"><input value="Subscribe" type="submit"></form>
 </div> </div>
 	</td>
     </tr>
@@ -201,7 +201,7 @@ pageEncoding="ISO-8859-1"%>
    </table>
 
 </div>
-
+    
              <br/>  <br/>    <br/>   <br/>                            
             
           </div>

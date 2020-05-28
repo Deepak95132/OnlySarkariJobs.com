@@ -4,7 +4,7 @@ pageEncoding="ISO-8859-1"%>
 
 <div class="PostMetadataHeader">
 <h1 class="PostHeaderIcon-wrapper">
-<span class="PostHeader"><a href="http://www.freejobalert.com/upsc-ifs/200388/" rel="bookmark" title="Permanent Link to UPSC Indian Forest Service Marks 2020 &#8211; Exam Postponed">
+<span class="PostHeader"><a href="http://www.SarkariExamDetail.com/upsc-ifs/200388/" rel="bookmark" title="Permanent Link to UPSC Indian Forest Service Marks 2020 &#8211; Exam Postponed">
 ${page.title} </a></span>
 </h1>
 
@@ -37,7 +37,7 @@ ${page.title} </a></span>
 <p style="text-align: center;"><span style="color: #ff0000;"><strong>Union Public Service Commission (UPSC)</strong></span></p>
 <p style="text-align: center;"><strong></strong><span style="color: #008000;"><strong><strong>Indian Forest Service Exam</strong> 2020</strong></span></p>
 
-<p style="text-align: center;"><strong><a href="http://www.freejobalert.com" target="_blank">WWW.OnlySarkariJobs.com</a></strong></p>
+<p style="text-align: center;"><strong><a href="http://www.SarkariExamDetail.com" target="_blank">WWW.OnlySarkariJobs.com</a></strong></p>
 </td>
 </tr>
 <tr>
@@ -111,23 +111,23 @@ ${page.title} </a></span>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong><strong>Selection Process</strong></strong></span></strong></td>
-<td style="width: 500px; text-align: center;"><strong><strong><a title="UPSC" href="http://www.freejobalert.com/upsc-ifs-exam-selection-procedure/25625/" target="_blank"><strong>Click Here</strong></a></strong></strong></td>
+<td style="width: 500px; text-align: center;"><strong><strong><a title="UPSC" href="http://www.SarkariExamDetail.com/upsc-ifs-exam-selection-procedure/25625/" target="_blank"><strong>Click Here</strong></a></strong></strong></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong><strong>Exam Pattern</strong></strong></span></strong></td>
-<td style="width: 500px; text-align: center;"><strong><strong><strong><a title="UPSC" href="http://www.freejobalert.com/upsc-ifs-exam-pattern/25618/" target="_blank"><strong>Click Here</strong></a></strong></strong></strong></td>
+<td style="width: 500px; text-align: center;"><strong><strong><strong><a title="UPSC" href="http://www.SarkariExamDetail.com/upsc-ifs-exam-pattern/25618/" target="_blank"><strong>Click Here</strong></a></strong></strong></strong></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong><strong>Eligibility Criteria</strong></strong></span></strong></td>
-<td style="width: 500px; text-align: center;"><strong><strong><a title="UPSC" href="http://www.freejobalert.com/upsc-ifs-exam-eligibility-criteria/25614/" target="_blank"><strong>Click Here</strong></a></strong></strong></td>
+<td style="width: 500px; text-align: center;"><strong><strong><a title="UPSC" href="http://www.SarkariExamDetail.com/upsc-ifs-exam-eligibility-criteria/25614/" target="_blank"><strong>Click Here</strong></a></strong></strong></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Syllabus</strong></span></strong></td>
-<td style="width: 500px; text-align: center;"><a title="UPSC" href="https://img.freejobalert.com/uploads/2020/02/Syllabus-UPSC-IFS-Exam-2020.pdf" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
+<td style="width: 500px; text-align: center;"><a title="UPSC" href="https://img.SarkariExamDetail.com/uploads/2020/02/Syllabus-UPSC-IFS-Exam-2020.pdf" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Notification</strong></span> </strong></td>
-<td style="width: 500px; text-align: center;"><a title="UPSC" href="	https://img.freejobalert.com/uploads/2020/02/Notification-UPSC-IFS-2020.pdf" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
+<td style="width: 500px; text-align: center;"><a title="UPSC" href="	https://img.SarkariExamDetail.com/uploads/2020/02/Notification-UPSC-IFS-2020.pdf" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><span style="color: #008000;"><strong>Official Website</strong></span></td>

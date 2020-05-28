@@ -1,8 +1,10 @@
+
  <div class="cleared"></div>
 <div id=footernav style='text-align:left;'>
 
 </div><div class="cleared"></div>
 <div class="Footer">
+
     <div  style="color:#FF0000; font-size:13px; text-align:left">
     <br/><br><br><br/>
                 Notice: Always type <b>.Com</b> after <b>SarkariExamDetail</b> . Beware of duplicate websites with <b>SarkariExamDetail</b> name. SarkariExamDetail.Com is the ONLY Official website of SarkariExamDetail
@@ -18,7 +20,7 @@
 | <a href="#">Privacy Statement</a> | -->
 <div style="text-align:center; font-weight:bold;">
 <a style="color: #000000;" rel="nofollow" title="Policy" name="policy" href="/policy/" target="_self">Policy</a> &nbsp;&nbsp;
-<a style="color: #000000;" rel="nofollow" title="Contact Us" name="contactus" href="http://www.freejobalert.com/contact-us/" target="_self">Contact Us</a>
+<a style="color: #000000;" rel="nofollow" title="Contact Us" name="contactus" href="http://www.SarkariExamDetail.com/contact-us/" target="_self">Contact Us</a>
 </div>
     Copyright &copy; 2010-2019 SarkariExamDetail.Com All Rights Reserved.</p>
 </div>
@@ -31,11 +33,11 @@ SarkariExamDetail.com provides free job alert service to job seekers in India on
 </div>
     
     
-    
-    
     </div>
-    </div>
+</div>
     
+    
+ 
     
 
 

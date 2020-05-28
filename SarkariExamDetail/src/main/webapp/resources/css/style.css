@@ -33,7 +33,7 @@ p  {     color: #000000;
 
 .PageBackgroundSimpleGradient
 {
-  background-image: url('/OnlySarkariJobs/resources/images/Page-BgSimpleGradient.jpg');
+  background-image: url('/SarkariExamDetail/resources/images/Page-BgSimpleGradient.jpg');
   background-repeat: repeat-x;
   height: 1px;
 }
@@ -60,7 +60,7 @@ p  {     color: #000000;
   margin: 0 auto;
   position: relative;
   z-index: 0;
-  width: 1000px;
+  width: 1366px;
 }
 
 
@@ -80,7 +80,7 @@ p  {     color: #000000;
   left: 0;
   width: 31px;
   height: 31px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-s.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-s.png');
 }
 
 .Sheet-tr
@@ -102,7 +102,7 @@ p  {     color: #000000;
   left: -31px;
   width: 62px;
   height: 62px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-s.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-s.png');
 }
 
 .Sheet-bl
@@ -124,7 +124,7 @@ p  {     color: #000000;
   left: 0;
   width: 62px;
   height: 62px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-s.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-s.png');
 }
 
 .Sheet-br
@@ -146,7 +146,7 @@ p  {     color: #000000;
   left: -31px;
   width: 62px;
   height: 62px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-s.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-s.png');
 }
 
 .Sheet-tc
@@ -168,7 +168,7 @@ p  {     color: #000000;
   left: 0;
   width: 100%;
   height: 62px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-h.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-h.png');
 }
 
 .Sheet-bc
@@ -190,7 +190,7 @@ p  {     color: #000000;
   left: 0;
   width: 100%;
   height: 62px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-h.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-h.png');
 }
 
 .Sheet-cl
@@ -212,7 +212,7 @@ p  {     color: #000000;
   left: 0;
   width: 62px;
   height: 100%;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-v.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-v.png');
 }
 
 .Sheet-cr
@@ -234,7 +234,7 @@ p  {     color: #000000;
   left: -31px;
   width: 62px;
   height: 100%;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-v.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-v.png');
 }
 
 .Sheet-cc
@@ -246,7 +246,7 @@ p  {     color: #000000;
   left: 31px;
   right: 31px;
   bottom: 31px;
-  background-image: url('/OnlySarkariJobs/resources/images/Sheet-c.png');
+  background-image: url('/SarkariExamDetail/resources/images/Sheet-c.png');
 }
 
 
@@ -262,7 +262,7 @@ div.Header
   margin: 0 auto;
   position: relative;
   z-index:0;
-  width: 998px;
+  width: 1366px;
   height: 72px;
   font: bold 11px/1.5em Verdana;
 }
@@ -274,9 +274,9 @@ div.Header-jpeg
   z-index:-1;
   top: 0;
   left: 0;
-  width: 998px;
+  width: 1370px;
   height: 72px;
-  background-image: url('/OnlySarkariJobs/resources/images/Header.jpg');
+  background-image: url('/SarkariExamDetail/resources/images/Header1.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -429,7 +429,7 @@ h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.lo
 {
   position: relative;
   margin: 0  auto;
-  width: 998px;
+  width: 1366px;
   height: 25px;
   z-index: 100;
 }
@@ -474,7 +474,7 @@ h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.lo
 {
   background-position: left top;
   background-repeat: no-repeat;
-  background-image: url('/OnlySarkariJobs/resources/images/nav.png');
+  background-image: url('/SarkariExamDetail/resources/images/nav.png');
 }
 
 /* end Menu */
@@ -719,7 +719,7 @@ h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.lo
 {
   background-position: left top;
   background-repeat: no-repeat;
-  background-image: url('/OnlySarkariJobs/resources/images/BlockHeader.png');
+  background-image: url('/SarkariExamDetail/resources/images/BlockHeader1.png');
 }
 
 
@@ -728,7 +728,7 @@ h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.lo
 {
   display:inline-block;
   background-position:left top;
-  background-image: url('/OnlySarkariJobs/resources/images/BlockHeaderIcon.png');
+  background-image: url('/SarkariExamDetail/resources/images/BlockHeaderIcon.png');
   padding:0 0 0 21px;
   background-repeat: no-repeat;
   min-height: 14px;
@@ -807,7 +807,7 @@ h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.lo
 .BlockContent-body ul li
 {
   padding:1px 0 1px 17px;
-  background-image: url('/OnlySarkariJobs/resources/images/BlockContentBullets.png');
+  background-image: url('/SarkariExamDetail/resources/images/BlockContentBullets.png');
   background-repeat:no-repeat;
   margin:0.5em 0 0.5em 0;
   line-height:1.2em;
@@ -1388,8 +1388,9 @@ input, select
   position:relative;
   z-index:0;
   overflow:hidden;
-  width: 998px;
-  margin: 5px auto 0px auto;
+  width: 1366px;
+  margin: 50px auto 0px auto;
+ 
 }
 
 .Footer .Footer-inner
@@ -1406,8 +1407,8 @@ input, select
   position:absolute;
   z-index:-1;
   background-repeat:no-repeat;
-  background-image: url('/OnlySarkariJobs/resources/images/Footer.png');
-  width: 998px;
+  background-image: url('/SarkariExamDetail/resources/images/Footer1.png');
+  width: 1366px;
   height: 100px;
   bottom:0;
   left:0;
@@ -1689,7 +1690,7 @@ img.wp-smiley
 
 #tabs {
 	float:left;
-	width:100%;
+	width:1366px;
 	font-size:93%;
 	line-height:normal;  
         font: bold 11px/1.5em Verdana;
@@ -1711,7 +1712,7 @@ img.wp-smiley
 
 #tabs a {
 	float:left;
-	background:url("/OnlySarkariJobs/resources/images/tableft.gif") no-repeat left top;
+	background:url("/SarkariExamDetail/resources/images/tableft.gif") no-repeat left top;
 	margin:0;
 	padding:0 0 0 0px;
 	text-decoration:none;
@@ -1720,7 +1721,7 @@ img.wp-smiley
 #tabs a span {
 	float:left;
 	display:block;
-	background:url("/OnlySarkariJobs/resources/images/tabright.gif") no-repeat right top;
+	background:url("/SarkariExamDetail/resources/images/tabright4.gif") no-repeat right top;
 	padding:5px 5px 5px 5px;
 	color:#FFF;
 
@@ -1763,6 +1764,7 @@ img.wp-smiley
 {
   position: relative;
   margin: 0;
+  margin-left : 18px;
   padding: 0;
   border: 0;
   float: left;
@@ -1772,5 +1774,15 @@ img.wp-smiley
 
 /* end LayoutCell */
 
-.nutbl { width:780px; border: 1px solid #215495; margin-bottom:10px; } .hqlnk { padding-left: 14px; border: 0; } .nutitle { font-weight: 700; text-align: center; background-color: #3a75b6; height: 45px; color: #fff; font-size: 30px; padding-top: 10px; font-family: Arial,Helvetica,sans-serif; } } .nutbl a, a:hover { text-decoration: none; font-size: 15px; font-weight: 700; } .bbord { border-bottom: 1px solid black !important; height:40px; } .listcontentnu ul { padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } .listcontentnu a { text-decoration: none; font-size: 13px; font-weight: 700; } .listcontentj ul { list-style-type:disc; padding: 0 0 0 15px; margin-top: 12px; display: block; } .listcontentj li { font-size: 13px; } .listcontentj li a { margin-top:15px; } .listcontentj a { text-decoration: none; font-weight: 700; } table.listcontentj { border-collapse: collapse; border: 1px solid black; margin:10px 0px 0px 199px; } .listcontentj td { width: 260px; border: 1px solid black; vertical-align: top; } .mbtn { display: inline-block; color: #ffffff; background-color: #DF8B1B; border: none; padding: 5px 20px; margin-top: 15px; font-size: 16px; cursor: pointer; float: right; right: 100px; position: relative; font-weight: 700; border-radius: 25px; }
+.nutbl { width:780px; border: 1px solid #215495; margin-bottom:10px; } .hqlnk { padding-left: 14px; border: 0; } 
+
+.nutitle { font-weight: 700; text-align: center; background-color: #004080; height: 45px; color: #fff; font-size: 30px; padding-top: 10px; font-family: Arial,Helvetica,sans-serif; } } 
+
+.nutbl a, a:hover { text-decoration: none; font-size: 15px; font-weight: 700; } 
+.bbord { border-bottom: 1px solid black !important; height:40px; } .listcontentnu ul { padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } 
+.listcontentnu a { text-decoration: none; font-size: 13px; font-weight: 700; } 
+.listcontentj ul { list-style-type:disc; padding: 0 0 0 15px; margin-top: 12px;  display: block; } 
+.listcontentj li { font-size: 13px; } .listcontentj li a { margin-top:15px; } .listcontentj a { text-decoration: none; font-weight: 700; } 
+table.listcontentj { border-collapse: collapse; border: 1px solid black; margin:10px 0px 0px 230px; } .listcontentj td { width: 290px; border: 1px solid black; vertical-align: top; } 
+.mbtn { display: inline-block; color: #ffffff; background-color: #DF8B1B; border: none; padding: 5px 20px; margin-top: 15px; font-size: 16px; cursor: pointer; float: right; right: 100px; position: relative; font-weight: 700; border-radius: 25px; }
 
