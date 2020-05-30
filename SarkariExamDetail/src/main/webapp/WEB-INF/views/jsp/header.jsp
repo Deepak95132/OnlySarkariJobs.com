@@ -28,14 +28,14 @@ pageEncoding="ISO-8859-1"%>
 				<div class="Sheet-cc"></div>
 				<div class="Sheet-body">
 				<div class="Header">
-					<div class="Header-jpeg"><a href="/OnlySarkariJobs/home"><img src="/SarkariExamDetail/resources/images/logo.jpg" alt="SarkariExamDetail Logo" align="left" width="58" height="72" /></a></div>
+					<div class="Header-jpeg"><a href="/SarkariExamDetail/pages/home"><img src="/SarkariExamDetail/resources/images/logo1.png" alt="SarkariExamDetail Logo" align="left" width="100" height="100" /></a></div>
 						<div class="logo">
-						<h1 id="name-text" class="logo-name">
+						<h1 id="name-text" class="logo-name"><br/>
 							<a href="/OnlySarkariJobs/home">SarkariExamDetail.Com</a></h1><br/>
 							<div id="slogan-text" class="logo-text">
-								Government Jobs | Results | Admit Cards							</div>
+								           Government Jobs | Results | Admit Cards							</div>
 						</div>
-						<a href="http://www.SarkariExamDetail.com/get-free-job-alerts-in-your-email-subscribe-now/">
+						<a href="#get-free-job-alerts-in-your-email-subscribe-now/">
 						<div  style="color:#FF0000; font-size:15px; text-align:right">
 							<marquee onmouseover="this.stop();" onmouseout="this.start();"> 
 							Get Free job alerts in your Email Click Here </marquee> 
@@ -45,14 +45,14 @@ pageEncoding="ISO-8859-1"%>
 				<div class="nav">
 					<div id="tabs">
 						<ul>
-							<li><a href="/OnlySarkariJobs/home"><span>Home&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/government-jobs/"><span>&nbsp;&nbsp;&nbsp;All India Govt Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/state-government-jobs/"><span>&nbsp;&nbsp;&nbsp;State Govt Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/bank-jobs/"><span>&nbsp;&nbsp;&nbsp;Bank Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/teaching-faculty-jobs/"><span>&nbsp;&nbsp;Teaching Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/engineering-jobs/"><span>&nbsp;&nbsp;Engineering Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/railway-jobs/"><span>&nbsp;&nbsp;Railway Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
-							<li><a href="http://www.SarkariExamDetail.com/police-defence-jobs/"><span>&nbsp;&nbsp;Police/Defence Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="/SarkariExamDetail/home"><span>Home&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;&nbsp;All India Govt Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;&nbsp;State Govt Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;&nbsp;Bank Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;Teaching Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;Engineering Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;Railway Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
+							<li><a href="#"><span>&nbsp;&nbsp;Police/Defence Jobs&nbsp;&nbsp;&nbsp;</span></a></li>
 							
 						</ul>
 					</div>
@@ -88,7 +88,7 @@ pageEncoding="ISO-8859-1"%>
     <div class="Block-body">
     <div class="BlockHeader">
     <div class="header-tag-icon">
-    <div class="BlockHeader-text">  Notifications </div>
+    <div class="BlockHeader-text">  Apply Online </div>
     </div>
     <div class="l"></div>
     <div class="r"><div></div></div>
@@ -96,10 +96,10 @@ pageEncoding="ISO-8859-1"%>
     <div class="BlockContent">
     <div class="BlockContent-body"> 
     <ul>
-    <li><a href="http://www.SarkariExamDetail.com/latest-notifications/">Latest Notifications</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/upcoming-notifications/21614/">Upcoming Notifications</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/examwise-information/188919/">Examwise Information</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/notification-status/#notification-status">Notification Status</a></li>
+    <li><a href="#latest-notifications/">PAN Card</a></li>
+    <li><a href="#upcoming-notifications/21614/">Aadhar Card</a></li>
+    <li><a href="#examwise-information/188919/">Voter Id Card</a></li>
+    <li><a href="#notification-status/#notification-status">Bank Account</a></li>
     </ul>    
     </div>
     </div>
@@ -118,13 +118,13 @@ pageEncoding="ISO-8859-1"%>
     <div class="BlockContent">
     <div class="BlockContent-body"> 
     <ul>
-    <li><a href="http://www.SarkariExamDetail.com/admit-card-call-letter/22406/">Admit Card</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/exam-results/22075/">Exam Results</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/upcoming-exam-dates-of-various-jobs/1835/">Exam Date</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/answer-key/">Answer Key</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/cutoff-marks/">Cutoff Marks</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/written-test-marks/22399/">Written Marks</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/interview-results/22135/">Interview Results</a></li>
+    <li><a href="#admit-card-call-letter/22406/">Admit Card</a></li>
+    <li><a href="#exam-results/22075/">Exam Results</a></li>
+    <li><a href="#upcoming-exam-dates-of-various-jobs/1835/">Exam Date</a></li>
+    <li><a href="#answer-key/">Answer Key</a></li>
+    <li><a href="#cutoff-marks/">Cutoff Marks</a></li>
+    <li><a href="#written-test-marks/22399/">Written Marks</a></li>
+    <li><a href="#interview-results/22135/">Interview Results</a></li>
     </ul>    
     </div>
     </div>
@@ -135,7 +135,7 @@ pageEncoding="ISO-8859-1"%>
     <div class="Block-body">
     <div class="BlockHeader">
     <div class="header-tag-icon">
-    <div class="BlockHeader-text">  Others </div>
+    <div class="BlockHeader-text">  Govt. Scheme </div>
     </div>
     <div class="l"></div>
     <div class="r"><div></div></div>
@@ -143,11 +143,10 @@ pageEncoding="ISO-8859-1"%>
     <div class="BlockContent">
     <div class="BlockContent-body"> 
     <ul>
-    <li><a href="http://www.SarkariExamDetail.com/eligibility/22149/">Eligibility</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/syllabus/22151/">Syllabus</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/exam-pattern/">Exam Pattern</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/selection-process/">Selection Process</a></li>
-    <li><a href="http://www.SarkariExamDetail.com/previous-papers/22365/">Previous Papers</a></li>
+    <li><a href="#eligibility/22149/">Haryana Scheme</a></li>
+    <li><a href="#syllabus/22151/">National Scheme</a></li>
+    <li><a href="#exam-pattern/">State-wise Scheme</a></li>
+   
     </ul>    
     </div>
     </div>
