@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" isELIgnored="false"
-pageEncoding="ISO-8859-1"%>
+
 <%@ include file="header.jsp" %>
 
 <div class="PostMetadataHeader">
@@ -43,25 +42,46 @@ ${page.title} </a></span>
 <tr>
 <td style="width: 500px; text-align: center;" colspan="2"><span style="color: #ff0000;"><strong>Important Dates</strong></span></p>
 <ul>
+<c:if test="${not empty page.notificationRelaseDate}">
 <li style="text-align: left;">Notification Release Date: <strong>${page.notificationRelaseDate}</strong></li>
+</c:if>
+<c:if test="${not empty page.lastDateToApply}">
 <li style="text-align: left;">Last Date to Apply Online:<strong> ${page.lastDateToApply} </strong></li>
+</c:if>
+<c:if test="${not empty page.lastDateToPayFeeOffline}">
 <li style="text-align: left;">Last Date for Payment of Fee (Pay-in-Slip)<strong>: ${page.lastDateToPayFeeOffline}</strong></li>
+</c:if>
+<c:if test="${not empty page.lastDateToPayFeeOnline}">
 <li style="text-align: left;">Last Date for Payment of Fee (Online)<strong>: ${page.lastDateToPayFeeOnline}</strong></li>
+</c:if>
+<c:if test="${not empty page.preliminaryExamDate}">
 <li style="text-align: left;">Dates for Preliminary Exam:<strong> ${page.preliminaryExamDate}</strong></li>
+</c:if>
+<c:if test="${not empty page.mainExamDate}">
 <li style="text-align: left;">Dates for Mains Exam:<strong> ${page.mainExamDate} </strong></li>
+</c:if>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;" colspan="2"><span style="color: #ff0000;"><strong>Age Limit</strong></span></p>
 <ul>
+<c:if test="${not empty page.minimumAge}">
 <li style="text-align: left;">Minimum Age<strong>: ${page.minimumAge} Years</strong></li>
+</c:if>
+<c:if test="${not empty page.maximumAge}">
 <li style="text-align: left;">Maximum Age: <strong>${page.maximumAge} Years</strong></li>
+</c:if>
+<c:if test="${not empty page.candidateDateLimitFrom and not empty page.candidateDateLimitTo}">
 <li style="text-align: left;">Candidate must have been born not earlier than <strong>${page.candidateDateLimitFrom}</strong> and not later than <strong>${page.candidateDateLimitTo}</strong></li>
+</c:if>
+<c:if test="${not empty page.ageRelaxation}">
 <li style="text-align: left;">${page.ageRelaxation}</li>
+</c:if>
 </ul>
 </td>
 </tr>
+<c:if test="${not empty page.qualification}">
 <tr>
 <td style="width: 500px; text-align: center;" colspan="2"><span style="color: #ff0000;"><strong><strong>Qualification</strong></strong></span></p>
 <ul>
@@ -69,6 +89,7 @@ ${page.title} </a></span>
 </ul>
 </td>
 </tr>
+</c:if>
 <tr>
 <td style="width: 500px; text-align: center;" colspan="2"> <span style="color: #ff0000;"><strong>Vacancy Details</strong></span></td>
 </tr>
@@ -87,31 +108,42 @@ ${page.title} </a></span>
 <tr>
 <td style="width: 500px; text-align: center;" colspan="2"><span style="color: #ff0000;"><strong>Important Links </strong></span></td>
 </tr>
-
+<c:if test="${not empty page.applyOnlineLink}">
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Apply Online</strong></span></strong></td>
 <td style="width: 500px; text-align: center;"><a  href="${page.applyOnlineLink}" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
 </tr>
+</c:if>
+<c:if test="${not empty page.examPatternLink}">
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong><strong>Exam Pattern</strong></strong></span></strong></td>
 <td style="width: 500px; text-align: center;"><strong><strong><strong><a  href="${page.examPatternLink}" target="_blank"><strong>Click Here</strong></a></strong></strong></strong></td>
 </tr>
+</c:if>
+<c:if test="${not empty page.elligiblityLink}">
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong><strong>Eligibility Criteria</strong></strong></span></strong></td>
 <td style="width: 500px; text-align: center;"><strong><strong><a  href="${page.elligiblityLink}" target="_blank"><strong>Click Here</strong></a></strong></strong></td>
 </tr>
+</c:if>
+<c:if test="${not empty page.syllabusLink}">
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Syllabus</strong></span></strong></td>
 <td style="width: 500px; text-align: center;"><a href="${page.syllabusLink}" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
 </tr>
+</c:if>
+<c:if test="${not empty page.notificationLink}">
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Notification</strong></span> </strong></td>
-<td style="width: 500px; text-align: center;"><a href="../../SarkariExamDetail/form/pdf/Notificaton-DRDO-RAC-Scientist-B-Posts" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
+<td style="width: 500px; text-align: center;"><a href="${page.notificationLink}" target="_blank"><strong><strong>Click Here</strong></strong></a></td>
 </tr>
+</c:if>
+<c:if test="${not empty page.officialLink}">
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Official Website</strong></span></strong></td>
 <td style="width: 500px; text-align: center;"><strong><strong><strong><strong><strong><strong><strong><strong><a  href="${page.officialLink}" target="_blank">Click Here</a></strong></strong></strong></strong></strong></strong></strong></strong></td>
 </tr>
+</c:if>
 </tbody>
 </table>
 
