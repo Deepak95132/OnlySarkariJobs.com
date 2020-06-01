@@ -5,12 +5,12 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import com.jobs.beans.EmailBean;
 import com.jobs.beans.PageBean;
 
 public class PageDAO {
 
 	public  void savePage(PageBean page) {
-		System.out.println(page.getPageName());
 		Session session=getSession();
 		session.getTransaction().begin();
 		session.persist(page);
@@ -31,6 +31,8 @@ public class PageDAO {
 	}
 	/*public static void main(String[] args) {
 		
-	savePage();
+	saveEmail("abc");
 	}*/
+	
+	
 }

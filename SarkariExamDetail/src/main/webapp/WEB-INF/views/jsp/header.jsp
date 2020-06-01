@@ -9,6 +9,25 @@ pageEncoding="ISO-8859-1"%>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link href="/SarkariExamDetail/resources/css/style.css" rel="stylesheet"/>
 	<script type="text/javascript" src="/SarkariExamDetail/resources/js/script.js"></script>
+	
+	<script type="text/javascript">
+	function ValidateEmail(inputText)
+	{
+		
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	if(inputText.value.match(mailformat))
+	{
+	document.form1.text1.focus();
+	return true;
+	}
+	else
+	{
+	alert("You have entered an invalid email address!");
+	document.form1.text1.focus();
+	return false;
+	}
+	}
+	</script>
 	</head>
 
 <body>
@@ -191,7 +210,10 @@ pageEncoding="ISO-8859-1"%>
  
 
 <div style="background-color:#E3F0F8;width:270px;margin-bottom:10px;">
- <form style="border:0px solid #ccc;padding:1px;text-align:center;" action="#" method="#" target="popupwindow" onsubmit="#', 'popupwindow', 'scrollbars=yes,width=550,height=500');return true"><input style="width:140px" name="email" placeholder="email address" type="text">&nbsp;<input value="SarkariExamDetail" name="uri" type="hidden"><input name="loc" value="en_US" type="hidden"><input value="Subscribe" type="submit"></form>
+ <form name="form1" style="border:0px solid #ccc;padding:1px;text-align:center;" action="#" method="#" ><input style="width:140px" name="email1" placeholder="email address" type="text">&nbsp;<input value="SarkariExamDetail" name="email" type="hidden"><input name="loc" value="en_US" type="hidden"><input value="Subscribe" onclick="ValidateEmail(document.form1.email1)" type="submit">
+ 
+ </form>
+
 </div> </div>
 	</td>
     </tr>

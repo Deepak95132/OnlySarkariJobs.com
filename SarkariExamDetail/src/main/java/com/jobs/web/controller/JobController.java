@@ -33,7 +33,7 @@ import com.jobs.beans.PageBean;
 @Controller
 public class JobController {
 
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView printWelcome(ModelAndView model) {
 
 		model.addObject("name", "test");
@@ -95,10 +95,12 @@ public class JobController {
 	    headers.setContentType(MediaType.parseMediaType("application/pdf"));
 	    String filename = name+".pdf";
 	    headers.add("content-disposition", "inline;filename=" + filename);
-	   // headers.setContentDispositionFormData(filename, filename);
 	    headers.setCacheControl("must-revalidate, post-check=0, pre-check=0");
 	    return new ResponseEntity<byte[]>(pdfContents, headers, HttpStatus.OK);
 	}
-	
-
+@RequestMapping(value="/saveEmail", method=RequestMethod.POST)	
+public ModelAndView saveEmail(@ModelAttribute("email")String email) {
+	ModelAndView model=new ModelAndView();
+	return model;
+}
 }

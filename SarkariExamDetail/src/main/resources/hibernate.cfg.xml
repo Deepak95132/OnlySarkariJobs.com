@@ -28,6 +28,6 @@
       
       <!-- List of XML mapping files -->
       <mapping class="com.jobs.beans.PageBean"/>
-      
+      <mapping class="com.jobs.beans.EmailBean"/>
    </session-factory>
 </hibernate-configuration>
