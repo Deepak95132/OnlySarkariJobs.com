@@ -1,44 +1,95 @@
 package com.jobs.web.controller;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.net.URLEncoder;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.apache.commons.io.IOUtils;
-import org.hibernate.metamodel.model.domain.spi.DomainModelHelper;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.jobs.DAO.EmailDAO;
 import com.jobs.DAO.PageDAO;
+import com.jobs.DAO.UserDAO;
+import com.jobs.beans.EmailBean;
 import com.jobs.beans.PageBean;
+import com.jobs.beans.UserBean;
+import com.jobs.service.EmailValidation;
 
 @Controller
 public class JobController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public ModelAndView printWelcome(ModelAndView model) {
+	public ModelAndView welcomePage(ModelAndView model,@ModelAttribute("user")UserBean user,HttpServletRequest request) {
+		if(user!=null&&user.getUserName()!=null) {
+			request.getSession().setAttribute("user", user);
+		}
+		String loginPage=(String)model.getModelMap().get("loginPage");
+		if("enable".equals(loginPage)){
+			request.setAttribute("loginPage", "enable");
+			model.setViewName("index");
+		}else {
+			model.setViewName("index");
+		}
+			
+		
+		return model;
 
-		model.addObject("name", "test");
-		model.addObject("url", "http://www.google.com");
-		model.setViewName("index");
+	}
+	
+	
+	@RequestMapping(value = "/PanCard-Details", method = RequestMethod.GET)
+	public ModelAndView panCard() {
+		ModelAndView model=new ModelAndView();
+			model.setViewName("PanDetails");
+	
+		
+		return model;
+
+	}
+
+	@RequestMapping(value = "/Aadhaar-Details", method = RequestMethod.GET)
+	public ModelAndView aadhaar() {
+		ModelAndView model=new ModelAndView();
+			model.setViewName("AadharCard");
+	
+		
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/VotorIdCard-Details", method = RequestMethod.GET)
+	public ModelAndView voterId() {
+		ModelAndView model=new ModelAndView();
+			model.setViewName("VoterIdCard");
+	
+		
+		return model;
+
+	}
+	@RequestMapping(value="/login" ,method=RequestMethod.GET)
+	public ModelAndView welcome1(ModelAndView model,HttpServletRequest request) {
+		
+		
+			request.setAttribute("loginPage", "enable");
+			
+	
+			model.setViewName("index");
+		
 		return model;
 
 	}
@@ -56,7 +107,6 @@ public class JobController {
 	
 	@RequestMapping(value = "/pages/{pageName}", method = RequestMethod.GET)
 	public ModelAndView pageReturn(ModelAndView model,@PathVariable("pageName") String pageName) {
-		System.out.println(pageName);
 		PageDAO pageDAO=new  PageDAO();
 		PageBean page=pageDAO.getPage(pageName);
 		model.addObject("page",page);
@@ -75,9 +125,17 @@ public class JobController {
 	}
 	
 	@RequestMapping(value="/createPage", method=RequestMethod.GET)
-	public ModelAndView createPage() {
+	public ModelAndView createPage(HttpServletRequest request) {
+		UserBean user=(UserBean)request.getSession().getAttribute("user");
 		ModelAndView model=new ModelAndView();
+	/*	if(user==null || user.getUserName()!=null) {
+			
+			model.setViewName("redirect:/");
+			
+		}else {*/
+		
 		model.setViewName("createPage");
+		//}
 		return model;
 	}
 	
@@ -98,9 +156,39 @@ public class JobController {
 	    headers.setCacheControl("must-revalidate, post-check=0, pre-check=0");
 	    return new ResponseEntity<byte[]>(pdfContents, headers, HttpStatus.OK);
 	}
-@RequestMapping(value="/saveEmail", method=RequestMethod.POST)	
-public ModelAndView saveEmail(@ModelAttribute("email")String email) {
-	ModelAndView model=new ModelAndView();
+@RequestMapping(value="/saveEmail", method=RequestMethod.GET)	
+public ModelAndView saveEmail(ModelAndView model, @ModelAttribute("email1")String email,Model model1) {
+	
+	
+	model.setViewName("index");
+	if(!new EmailValidation().validate(email)) {
+		EmailDAO dao=new EmailDAO();
+		dao.saveEmail(email);
+		String emailValue="Please provide a valid email.";
+		model1.addAttribute("saveEmail", emailValue) ;
+	model.addObject("");
+	}else {
+		model.addObject("saveEmail", "");
+	}
 	return model;
 }
+
+
+
+@RequestMapping(value = "/validate", method = RequestMethod.POST)
+public ModelAndView validate(@ModelAttribute("user") UserBean user,HttpServletRequest request) {
+	
+	ModelAndView model = new ModelAndView();
+	boolean value=new UserDAO().getUser(user);
+if(value) {
+	request.getSession().setAttribute("user", user);
+
+	model.setViewName("redirect:/createPage");
+}else {
+	model.setViewName("redirect:/login");
+}
+	return model;
+}
+
+
 }

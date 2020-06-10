@@ -18,7 +18,7 @@ pageEncoding="ISO-8859-1"%>
 
 <div class="PostContent">
 
-<p style="text-align: justify;"><strong><span style="color: #008000;"><a name="IFS-2020"></a>Name of the Post</span>: </strong><strong>UPSC <strong><input type="text" name="" name="nameOfPost"/></strong></strong></p>
+<p style="text-align: justify;"><strong><span style="color: #008000;"><a name="IFS-2020"></a>Name of the Post</span>: </strong><strong> <strong><input type="text" name="" name="nameOfPost"/></strong></strong></p>
 <p style="text-align: justify;"><strong><span style="color: #008000;">Post Date</span>:</strong> <strong><input type="text" name="postDate"/></strong></p>
 <p style="text-align: justify;"><strong><span style="color: #008000;">Latest Update:</span> <input type="text" name="latestUpdate"/></strong></p>
 <p style="text-align: justify;"><strong><span style="color: #008000;">Total Vacancy</span>:</strong> <strong><input type="text" name="totalVacancy"/></strong></p>
@@ -28,7 +28,7 @@ pageEncoding="ISO-8859-1"%>
 <tr>
 <td style="width: 500px;" colspan="2">
 <p style="text-align: center;"><span style="color: #ff0000;"><strong><input type="text" name="nameOfService"/></strong></span></p>
-<p style="text-align: center;"><strong></strong><span style="color: #008000;"><strong><strong><input type="text" name="nameOfExam"/></strong> 2020</strong></span></p>
+<p style="text-align: center;"><strong></strong><span style="color: #008000;"><strong><strong><input type="text" name="nameOfExam"/></strong> </strong></span></p>
 
 <p style="text-align: center;"><strong><a href="http://www.SarkariExamDetail.com" target="_blank">WWW.OnlySarkariJobs.com</a></strong></p>
 </td>
@@ -107,11 +107,12 @@ pageEncoding="ISO-8859-1"%>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Syllabus</strong></span></strong></td>
-<td style="width: 500px; text-align: center;"><strong><strong><input type="text" name="syllabusLink"/></strong></strong></td>
+<td style="width: 500px; text-align: center;"><strong><strong><input type="text" name="syllabusLink"/></strong><input type="file" name="syllabus" /></strong></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Notification</strong></span> </strong></td>
-<td style="width: 500px; text-align: center;"><strong><strong><input type="text" name="notificationLink"/></strong></strong></td>
+<td style="width: 500px; text-align: center;"><strong><strong><input type="text" name="notificationLink"/></strong></strong>&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="file" name="notification" /></td>
 </tr>
 <tr>
 <td style="width: 500px; text-align: center;"><strong><span style="color: #008000;"><strong>Official Website</strong></span></strong></td>
@@ -123,8 +124,7 @@ pageEncoding="ISO-8859-1"%>
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="Submit" />
+&nbsp;<input type="submit" name="Submit" />
 </div>
 </form>
 <%@ include file="footer.jsp" %>

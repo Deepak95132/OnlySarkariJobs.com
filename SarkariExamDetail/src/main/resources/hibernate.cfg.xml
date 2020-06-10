@@ -15,19 +15,20 @@
       <!-- Assume test is the database name -->
       
       <property name = "hibernate.connection.url">
-         jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12343626
+         jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12346838
       </property>
       
       <property name = "hibernate.connection.username">
-         sql12343626
+         sql12346838
       </property>
       
       <property name = "hibernate.connection.password">
-         xuQ7DlMGCL
+         PRMBgewzKA
       </property>
       
       <!-- List of XML mapping files -->
       <mapping class="com.jobs.beans.PageBean"/>
       <mapping class="com.jobs.beans.EmailBean"/>
+      <mapping class="com.jobs.beans.UserBean"/>
    </session-factory>
 </hibernate-configuration>
